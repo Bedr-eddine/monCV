@@ -1,0 +1,148 @@
+/*regles generales*/
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section {
+    width: 50%;
+}
+
+h1,
+h3,
+h4,
+p,
+ul {
+    padding-left: 3em;
+}
+
+
+/*regles de blocks*/
+
+#perso {
+    float: left;
+    clear: left;
+    background-color: dimgray;
+    color: white;
+    height: 150px;
+}
+
+#job {
+    float: right;
+    clear: right;
+    background-color: rgb(26, 123, 153);
+    color: white;
+    height: 150px;
+}
+
+#profil {
+    float: left;
+    clear: left;
+    background-color: rgb(26, 123, 153);
+    padding-top: 1.2em;
+    height: 11.1em;
+}
+
+#profil h1 {
+    background-color: rgb(100, 194, 223);
+    color: white;
+    margin-top: -1.1em;
+    padding-bottom: .1em;
+}
+
+#contact {
+    float: right;
+    clear: right;
+    padding-bottom: 4.2em;
+    background-color: rgb(231, 210, 210);
+}
+
+#contact h1 {
+    background-color: dimgray;
+    color: white;
+    margin-top: 0;
+}
+
+#exp {
+    float: left;
+    clear: left;
+    background-color: rgb(206, 194, 194);
+}
+
+#exp h1 {
+    background-color: rgb(100, 194, 223);
+    color: white;
+    margin-top: -.1em;
+}
+
+#exp h4 {
+    color: rgb(21, 117, 146);
+}
+
+#comp {
+    float: right;
+    clear: right;
+    background-color: rgb(231, 210, 210);
+    padding-bottom: 1.4em;
+}
+
+#comp h1 {
+    background-color: dimgray;
+    color: white;
+    margin-top: -.1em;
+}
+
+#comp ul li {
+    color: rgb(12, 102, 129);
+}
+
+#forma {
+    float: right;
+    border-left: 1px lightblue;
+    background-color: rgb(153, 159, 161);
+    padding-bottom: 210px;
+}
+
+#forma h1 {
+    background-color: dimgray;
+    margin-top: -.45em;
+    color: white;
+}
+
+#forma h4 {
+    color: rgb(12, 102, 129);
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+div.left {
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+@media only screen and (max-width: 970px) {
+    section {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    h1,
+    h3,
+    h4,
+    p,
+    ul {
+        padding-left: 0;
+    }
+    #profil h1 {
+        background-color: rgb(100, 172, 194);
+        color: white;
+        margin-top: -.8em;
+        padding-bottom: .1em;
+    }
+}
