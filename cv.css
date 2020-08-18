@@ -23,7 +23,7 @@ ul {
 #perso {
     float: left;
     clear: left;
-    background-color: dimgray;
+    background-color: rgb(122, 119, 119);
     color: white;
     height: 150px;
 }
